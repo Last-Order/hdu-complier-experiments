@@ -1,0 +1,432 @@
+{
+  "type": "program",
+  "constant_definition": {
+    "type": "constant_definition",
+    "constant_definition_body": [
+      {
+        "type": "assignment",
+        "arguments": [
+          {
+            "type": "identifier",
+            "name": "x"
+          },
+          8
+        ]
+      },
+      {
+        "type": "assignment",
+        "arguments": [
+          {
+            "type": "identifier",
+            "name": "y"
+          },
+          7
+        ]
+      }
+    ]
+  },
+  "variable_definition": {
+    "type": "variable_definition",
+    "variable_definition_body": [
+      {
+        "type": "variable",
+        "name": {
+          "type": "identifier",
+          "name": "a"
+        }
+      },
+      {
+        "type": "variable",
+        "name": {
+          "type": "identifier",
+          "name": "b"
+        }
+      },
+      {
+        "type": "variable",
+        "name": {
+          "type": "identifier",
+          "name": "c"
+        }
+      }
+    ]
+  },
+  "statement_list": {
+    "type": "statement_list",
+    "body": [
+      {
+        "type": "block_statement",
+        "body": {
+          "type": "block_statement_body",
+          "body": {
+            "type": "statement_list",
+            "body": [
+              {
+                "type": "assignment_statement",
+                "body": {
+                  "type": "assignment",
+                  "arguments": [
+                    {
+                      "type": "identifier",
+                      "name": "a"
+                    },
+                    {
+                      "type": "expression",
+                      "arguments": [
+                        {
+                          "type": "expression",
+                          "arguments": [
+                            {
+                              "type": "item",
+                              "arguments": [
+                                {
+                                  "type": "factor",
+                                  "arguments": [
+                                    {
+                                      "type": "identifier",
+                                      "name": "b"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "+",
+                        {
+                          "type": "item",
+                          "arguments": [
+                            {
+                              "type": "factor",
+                              "arguments": [
+                                {
+                                  "type": "identifier",
+                                  "name": "x"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "condition_statement",
+                "body": {
+                  "type": "condition_statement",
+                  "condition": {
+                    "type": "condition",
+                    "arguments": [
+                      {
+                        "type": "expression",
+                        "arguments": [
+                          {
+                            "type": "item",
+                            "arguments": [
+                              {
+                                "type": "factor",
+                                "arguments": [
+                                  {
+                                    "type": "identifier",
+                                    "name": "a"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      ">",
+                      {
+                        "type": "expression",
+                        "arguments": [
+                          {
+                            "type": "item",
+                            "arguments": [
+                              {
+                                "type": "factor",
+                                "arguments": [
+                                  0
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "true_statement": {
+                    "type": "block_statement",
+                    "body": {
+                      "type": "block_statement_body",
+                      "body": {
+                        "type": "statement_list",
+                        "body": [
+                          {
+                            "type": "assignment_statement",
+                            "body": {
+                              "type": "assignment",
+                              "arguments": [
+                                {
+                                  "type": "identifier",
+                                  "name": "c"
+                                },
+                                {
+                                  "type": "expression",
+                                  "arguments": [
+                                    {
+                                      "type": "expression",
+                                      "arguments": [
+                                        {
+                                          "type": "item",
+                                          "arguments": [
+                                            {
+                                              "type": "factor",
+                                              "arguments": [
+                                                {
+                                                  "type": "identifier",
+                                                  "name": "y"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    "-",
+                                    {
+                                      "type": "item",
+                                      "arguments": [
+                                        {
+                                          "type": "factor",
+                                          "arguments": [
+                                            1
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "type": "assignment_statement",
+                            "body": {
+                              "type": "assignment",
+                              "arguments": [
+                                {
+                                  "type": "identifier",
+                                  "name": "a"
+                                },
+                                {
+                                  "type": "expression",
+                                  "arguments": [
+                                    {
+                                      "type": "expression",
+                                      "arguments": [
+                                        {
+                                          "type": "item",
+                                          "arguments": [
+                                            {
+                                              "type": "factor",
+                                              "arguments": [
+                                                {
+                                                  "type": "identifier",
+                                                  "name": "a"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    "+",
+                                    {
+                                      "type": "item",
+                                      "arguments": [
+                                        {
+                                          "type": "factor",
+                                          "arguments": [
+                                            2
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "false_statement": {
+                    "type": "block_statement",
+                    "body": {
+                      "type": "block_statement_body",
+                      "body": {
+                        "type": "statement_list",
+                        "body": [
+                          {
+                            "type": "assignment_statement",
+                            "body": {
+                              "type": "assignment",
+                              "arguments": [
+                                {
+                                  "type": "identifier",
+                                  "name": "c"
+                                },
+                                {
+                                  "type": "expression",
+                                  "arguments": [
+                                    {
+                                      "type": "expression",
+                                      "arguments": [
+                                        {
+                                          "type": "item",
+                                          "arguments": [
+                                            {
+                                              "type": "factor",
+                                              "arguments": [
+                                                {
+                                                  "type": "identifier",
+                                                  "name": "a"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    "+",
+                                    {
+                                      "type": "item",
+                                      "arguments": [
+                                        {
+                                          "type": "factor",
+                                          "arguments": [
+                                            {
+                                              "type": "identifier",
+                                              "name": "y"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "while_loop_statement",
+                "body": {
+                  "type": "while_loop_statement_body",
+                  "condition": {
+                    "type": "condition",
+                    "arguments": [
+                      {
+                        "type": "expression",
+                        "arguments": [
+                          {
+                            "type": "item",
+                            "arguments": [
+                              {
+                                "type": "factor",
+                                "arguments": [
+                                  {
+                                    "type": "identifier",
+                                    "name": "a"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      ">",
+                      {
+                        "type": "expression",
+                        "arguments": [
+                          {
+                            "type": "item",
+                            "arguments": [
+                              {
+                                "type": "factor",
+                                "arguments": [
+                                  0
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "body": {
+                    "type": "assignment_statement",
+                    "body": {
+                      "type": "assignment",
+                      "arguments": [
+                        {
+                          "type": "identifier",
+                          "name": "a"
+                        },
+                        {
+                          "type": "expression",
+                          "arguments": [
+                            {
+                              "type": "expression",
+                              "arguments": [
+                                {
+                                  "type": "item",
+                                  "arguments": [
+                                    {
+                                      "type": "factor",
+                                      "arguments": [
+                                        {
+                                          "type": "identifier",
+                                          "name": "a"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "-",
+                            {
+                              "type": "item",
+                              "arguments": [
+                                {
+                                  "type": "factor",
+                                  "arguments": [
+                                    1
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
